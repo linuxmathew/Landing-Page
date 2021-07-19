@@ -1,0 +1,239 @@
+body{
+    font-family: verdana;
+    font-size: 15;
+    margin-left: 0px;
+    margin-right: 0px;
+  
+}
+
+/*====DIV CONTAINING THE EDITOR IMAGE BACKGROUND ====*/
+#top1{
+    text-align: center;
+    color: white;
+    background-image: url(background.jpeg); 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*===READ MORE ON THE EDITOR IMAGE BACKGROUND ====*/
+#readMore{
+    border-color: brown;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: arial;
+        }
+/*==== LINK UNDER THE READ MORE ====*/
+    #readMore a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(17, 12, 12, 0.089);
+    padding: 5px;
+    border-radius: 2px;
+    border: bold 2px brown;
+}
+/*====READ MORE EFFECT ===*/
+#readMore a:hover {
+    background-color: white;
+    color: black;
+}
+
+/*==== DIV FOR SECTION 2 AND 4 =====*/
+.reuse {
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+}
+/* ==== HEADING OF SECTION 2 AND 4 ====*/
+h2 {
+    text-align:center;
+}
+/* ==== PARAGRAPH FLOATED LEFT IN SECTION 2 ==== */
+.left {
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+/* ==== PARAGRAPH FLOATED RIGHT IN SECTION 2 ==== */
+.right{
+    width: 45%;
+    float: right;
+    text-align: center;
+}
+
+/* ======SECTION 3==> FLOAT SECTIION ======*/
+#top2 {
+    background-color: rgb(49, 42, 42);
+    padding: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+}
+
+#floatLeft{
+    width: 32.5%;
+    float: left;
+    background-color: white;
+    box-sizing: border-box;
+  
+}
+.webDev  {
+    width: 100%;
+    display: block;
+    
+}
+#floatRight{
+    width: 32.5%;
+    float: right;
+    background-color: white;
+ box-sizing: border-box;
+}
+.techMark{
+    width: 100%;
+    display: block;
+   
+}
+
+#floatCenter{
+  float: left;
+    width: 32.5%;
+    background-color: white;
+ box-sizing: border-box;
+  
+}
+.mobileApp{
+    width: 100%;
+    display: block;
+}
+
+h3, p{
+    text-align: center;
+    line-height: 1.2;
+    padding: 5px;
+}
+
+#top3{
+        overflow:hidden; 
+}
+#flowLeft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(46, 185, 231);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+#flowRight {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(49, 42, 42);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+
+}
+
+/* ==== FOOTER SECTION ===*/
+#footer {
+ height: 40px;
+    background-color:black;
+    padding: 0;
+    
+}
+a {
+    text-decoration: none;
+    color:rgb(99, 194, 226)
+}
+
+#footLeft {
+    width: 48%;
+    float: left;
+    text-align: center;
+    color: white;
+    line-height: 0;
+    font-size: 13px;
+}
+#footRight{
+    width: 48%;
+    float: right;
+    text-align: center;
+    color: white;
+    line-height: 0;
+    font-size: 13px;
+}
+
+/*===== MEDIA QUERY SECTION ====*/
+
+@media (max-width: 600px) {
+
+#top1{
+  width:100%;
+  padding-left: 10px;
+  padding-right:10px;
+  box-sizing: border-box;
+}
+    #top2{
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+  #floatCenter, #floatRight, #floatLeft{
+  display: block;
+    width:100%;
+    float: none;
+    margin:none;
+    text-align: center;
+  }
+  #floatCenter {
+    margin-left: 0;
+  }
+  
+  #footLeft, #footRight, #footRight a{
+    font-size: 12px;
+    line-height:1px;
+    width:45%;
+      }
+
+#top3{
+    width: 100%;
+    
+}
+  #flowLeft, #flowRight {
+    height: 50%;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    float: none;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  #footer {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .reuse{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+h3, p{
+    text-align: center;
+    line-height: 1.2;
+    padding: 5px;
+}
+}
